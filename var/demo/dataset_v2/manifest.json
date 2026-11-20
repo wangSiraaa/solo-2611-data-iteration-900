@@ -1,0 +1,17 @@
+{
+  "format": "animgif-dataset",
+  "version": 1,
+  "catalog_revision": 3,
+  "canvas_width": 8,
+  "canvas_height": 8,
+  "background_rgb": [
+    0,
+    0,
+    0
+  ],
+  "sample_count": 12,
+  "frame_count": 7,
+  "end_time_seconds": "0.49",
+  "unique_png_count": 7,
+  "loop": false
+}

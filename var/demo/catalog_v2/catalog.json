@@ -1,0 +1,370 @@
+{
+  "format": "animgif-catalog",
+  "version": 1,
+  "revision": 5,
+  "width": 8,
+  "height": 8,
+  "background_rgb": [
+    0,
+    0,
+    0
+  ],
+  "next_frame_id": 8,
+  "deleted_frame_ids": [
+    2
+  ],
+  "body_cache_bytes_limit": 12582912,
+  "frames": [
+    {
+      "frame_id": 0,
+      "left": 0,
+      "top": 0,
+      "width": 8,
+      "height": 8,
+      "delay_centis": 10,
+      "disposal": 1,
+      "palette": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          0,
+          0
+        ],
+        [
+          0,
+          255,
+          0
+        ],
+        [
+          0,
+          0,
+          255
+        ],
+        [
+          255,
+          255,
+          0
+        ],
+        [
+          255,
+          128,
+          0
+        ],
+        [
+          128,
+          128,
+          128
+        ]
+      ],
+      "palette_is_local": false,
+      "transparent_index": null,
+      "has_indices": true,
+      "body": "bodies/fid_0.png",
+      "indices": "bodies/fid_0.idx"
+    },
+    {
+      "frame_id": 1,
+      "left": 0,
+      "top": 4,
+      "width": 4,
+      "height": 4,
+      "delay_centis": 5,
+      "disposal": 1,
+      "palette": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          0,
+          0
+        ],
+        [
+          0,
+          255,
+          0
+        ],
+        [
+          0,
+          0,
+          255
+        ],
+        [
+          255,
+          255,
+          0
+        ],
+        [
+          255,
+          128,
+          0
+        ],
+        [
+          128,
+          128,
+          128
+        ]
+      ],
+      "palette_is_local": false,
+      "transparent_index": 7,
+      "has_indices": true,
+      "body": "bodies/fid_1.png",
+      "indices": "bodies/fid_1.idx"
+    },
+    {
+      "frame_id": 3,
+      "left": 2,
+      "top": 2,
+      "width": 3,
+      "height": 3,
+      "delay_centis": 6,
+      "disposal": 3,
+      "palette": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          0,
+          0
+        ],
+        [
+          0,
+          255,
+          0
+        ],
+        [
+          0,
+          0,
+          255
+        ],
+        [
+          255,
+          255,
+          0
+        ],
+        [
+          255,
+          128,
+          0
+        ],
+        [
+          128,
+          128,
+          128
+        ]
+      ],
+      "palette_is_local": false,
+      "transparent_index": 7,
+      "has_indices": true,
+      "body": "bodies/fid_3.png",
+      "indices": "bodies/fid_3.idx"
+    },
+    {
+      "frame_id": 4,
+      "left": 1,
+      "top": 5,
+      "width": 5,
+      "height": 2,
+      "delay_centis": 8,
+      "disposal": 2,
+      "palette": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          0,
+          0
+        ],
+        [
+          0,
+          255,
+          0
+        ],
+        [
+          0,
+          0,
+          255
+        ],
+        [
+          255,
+          255,
+          0
+        ],
+        [
+          255,
+          128,
+          0
+        ],
+        [
+          128,
+          128,
+          128
+        ]
+      ],
+      "palette_is_local": false,
+      "transparent_index": null,
+      "has_indices": true,
+      "body": "bodies/fid_4.png",
+      "indices": "bodies/fid_4.idx"
+    },
+    {
+      "frame_id": 5,
+      "left": 5,
+      "top": 1,
+      "width": 2,
+      "height": 2,
+      "delay_centis": 0,
+      "disposal": 0,
+      "palette": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          255,
+          0,
+          0
+        ],
+        [
+          0,
+          255,
+          0
+        ],
+        [
+          0,
+          0,
+          255
+        ],
+        [
+          255,
+          255,
+          0
+        ],
+        [
+          255,
+          128,
+          0
+        ],
+        [
+          128,
+          128,
+          128
+        ]
+      ],
+      "palette_is_local": false,
+      "transparent_index": null,
+      "has_indices": true,
+      "body": "bodies/fid_5.png",
+      "indices": "bodies/fid_5.idx"
+    },
+    {
+      "frame_id": 6,
+      "left": 0,
+      "top": 0,
+      "width": 4,
+      "height": 4,
+      "delay_centis": 12,
+      "disposal": 1,
+      "palette": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          255,
+          255,
+          255
+        ],
+        [
+          200,
+          0,
+          200
+        ],
+        [
+          0,
+          255,
+          0
+        ],
+        [
+          0,
+          0,
+          255
+        ],
+        [
+          255,
+          255,
+          0
+        ],
+        [
+          255,
+          128,
+          0
+        ],
+        [
+          128,
+          128,
+          128
+        ]
+      ],
+      "palette_is_local": true,
+      "transparent_index": 7,
+      "has_indices": true,
+      "body": "bodies/fid_6.png",
+      "indices": "bodies/fid_6.idx"
+    },
+    {
+      "frame_id": 7,
+      "left": 0,
+      "top": 0,
+      "width": 2,
+      "height": 2,
+      "delay_centis": 3,
+      "disposal": 1,
+      "palette": null,
+      "palette_is_local": false,
+      "transparent_index": null,
+      "has_indices": false,
+      "body": "bodies/fid_7.png",
+      "indices": null
+    }
+  ]
+}
