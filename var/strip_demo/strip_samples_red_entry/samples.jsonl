@@ -1,0 +1,2 @@
+{"sample_id": "s000000", "time_seconds": "0.05", "time_fraction": "1/20", "ended": false, "frame_id": 0, "png": "frames/34aaa746c25a0f10.png", "rgba_digest": "34aaa746c25a0f105c4316bbb1f009aa359f49582656ee97d73c58132d563423", "entry_derived_pixels": 1, "constant_pixels": 0}
+{"sample_id": "s000001", "time_seconds": "1.0", "time_fraction": "1", "ended": true, "frame_id": null, "png": null, "rgba_digest": null, "entry_derived_pixels": null, "constant_pixels": null}

@@ -1,0 +1,109 @@
+{
+  "format": "animgif-substitution-sheet",
+  "version": 1,
+  "report": {
+    "success": false,
+    "verdict": "rejected",
+    "detail": "替片被拒：样本 s0（t=1/20）坐标 (0, 0)（区 X）两侧颜色不同",
+    "strip_a_id": "xy-transparent",
+    "strip_b_id": "xy-paint-white",
+    "duration_seconds": {
+      "a": "1/10",
+      "b": "1/10"
+    },
+    "checked_samples": 1,
+    "checked_exit_regions": [],
+    "earliest_mismatch": {
+      "stage": "display",
+      "sample_id": "s0",
+      "time_fraction": "1/20",
+      "coord": [
+        0,
+        0
+      ],
+      "region": "X",
+      "rgb_a": [
+        255,
+        0,
+        0
+      ],
+      "rgb_b": [
+        255,
+        255,
+        255
+      ],
+      "term_a": {
+        "kind": "entry",
+        "rgb": null,
+        "frame_id": null,
+        "reason": null,
+        "detail": "入场底画同一坐标像素的延续"
+      },
+      "term_b": {
+        "kind": "constant",
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "frame_id": 0,
+        "reason": "paint",
+        "detail": "帧0不透明覆盖（帧正文确定颜色）"
+      },
+      "reason": "显示不符：甲片该像素是入场延续，取区 X 入场色 (255, 0, 0)；乙片该像素由帧0的paint提供确定色 (255, 255, 255)"
+    },
+    "witness_scheme": {
+      "cabinet_kind": "paint_can",
+      "colors": {
+        "X": [
+          255,
+          0,
+          0
+        ],
+        "Y": [
+          255,
+          0,
+          0
+        ]
+      },
+      "paints": [
+        {
+          "region": "X",
+          "lot_id": "R1",
+          "rgb": [
+            255,
+            0,
+            0
+          ]
+        },
+        {
+          "region": "Y",
+          "lot_id": "R1",
+          "rgb": [
+            255,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  "fingerprints": {
+    "strip_a": "0c3c8db93328bd46f1b7a9da83f9ca1b29f40383313d0997f91f3eda1f1454c8",
+    "strip_b": "79281a6d57f3a07f60630992cca61128aa45a320789a3c041d516e8308716710",
+    "cabinet": "d8f0ae30baf3402b594b741a2b126b9538cc4fe2c8eb4d66562b4765b13c02eb"
+  },
+  "strip_versions": {
+    "strip_a": 1,
+    "strip_b": 1
+  },
+  "request": {
+    "samples": [
+      {
+        "sample_id": "s0",
+        "time_fraction": "1/20"
+      }
+    ],
+    "exit_regions": []
+  }
+}

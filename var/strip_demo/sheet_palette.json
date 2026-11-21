@@ -1,0 +1,37 @@
+{
+  "format": "animgif-substitution-sheet",
+  "version": 1,
+  "report": {
+    "success": true,
+    "verdict": "interchangeable",
+    "detail": "两片在 1 个显示采样上，对一切合法整柜底画逐像素一致",
+    "strip_a_id": "white-transparent",
+    "strip_b_id": "local-palette-revision",
+    "duration_seconds": {
+      "a": "1/10",
+      "b": "1/10"
+    },
+    "checked_samples": 1,
+    "checked_exit_regions": [],
+    "earliest_mismatch": null,
+    "witness_scheme": null
+  },
+  "fingerprints": {
+    "strip_a": "bcbc2d16a77ca6aa52193468640d66c9eb75431e1509291f7c2d707b6924b866",
+    "strip_b": "d69afddb6e4880e3869252342d716156f30f89a8e0c1a8006f927400c2e09666",
+    "cabinet": "09addeed93fbf08027ce2d3d24f2b7f8e14454abb7f011cafcf2585c993e864c"
+  },
+  "strip_versions": {
+    "strip_a": 1,
+    "strip_b": 1
+  },
+  "request": {
+    "samples": [
+      {
+        "sample_id": "s0",
+        "time_fraction": "1/20"
+      }
+    ],
+    "exit_regions": []
+  }
+}

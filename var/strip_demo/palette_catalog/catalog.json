@@ -1,0 +1,43 @@
+{
+  "format": "animgif-catalog",
+  "version": 1,
+  "revision": 3,
+  "width": 1,
+  "height": 1,
+  "background_rgb": [
+    255,
+    255,
+    255
+  ],
+  "next_frame_id": 1,
+  "deleted_frame_ids": [],
+  "body_cache_bytes_limit": 12582912,
+  "frames": [
+    {
+      "frame_id": 0,
+      "left": 0,
+      "top": 0,
+      "width": 1,
+      "height": 1,
+      "delay_centis": 10,
+      "disposal": 1,
+      "palette": [
+        [
+          255,
+          0,
+          0
+        ],
+        [
+          255,
+          0,
+          0
+        ]
+      ],
+      "palette_is_local": true,
+      "transparent_index": null,
+      "has_indices": true,
+      "body": "bodies/fid_0.png",
+      "indices": "bodies/fid_0.idx"
+    }
+  ]
+}

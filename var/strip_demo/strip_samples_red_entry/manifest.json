@@ -1,0 +1,17 @@
+{
+  "format": "animgif-strip-samples",
+  "version": 1,
+  "strip_id": "white-transparent",
+  "strip_version": 1,
+  "strip_fingerprint": "bcbc2d16a77ca6aa52193468640d66c9eb75431e1509291f7c2d707b6924b866",
+  "canvas_width": 1,
+  "canvas_height": 1,
+  "background_rgb": [
+    255,
+    255,
+    255
+  ],
+  "sample_count": 2,
+  "unique_png_count": 1,
+  "loop": false
+}

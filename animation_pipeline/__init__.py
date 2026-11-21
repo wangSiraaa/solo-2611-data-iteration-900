@@ -15,6 +15,36 @@ from .compositor import (
     reference_replay,
 )
 from .gif_io import GifFile, GifImage, frame_spec, parse_gif, write_gif
+from .filmstrip import (
+    ENTRY_TERM,
+    ENTRY_TERM_ID,
+    Filmstrip,
+    FilmstripValidationError,
+    SymbolicTrace,
+    Term,
+    produce_strip_samples,
+)
+from .cabinet import (
+    CabinetUnsatisfiable,
+    CabinetValidationError,
+    LegacyCabinet,
+    PaintCanCabinet,
+    PaintLot,
+    Region,
+    RegionPaint,
+    Scheme,
+)
+from .substitution import (
+    CheckRequest,
+    Mismatch,
+    SubstitutionInputError,
+    SubstitutionReport,
+    cabinet_fingerprint,
+    entry_canvas_from_scheme,
+    issue_sheet,
+    reopen_sheet,
+    verify_substitution,
+)
 
 __all__ = [
     "CatalogValidationError",
@@ -32,4 +62,28 @@ __all__ = [
     "frame_spec",
     "parse_gif",
     "write_gif",
+    "Filmstrip",
+    "FilmstripValidationError",
+    "SymbolicTrace",
+    "Term",
+    "ENTRY_TERM",
+    "ENTRY_TERM_ID",
+    "produce_strip_samples",
+    "CabinetValidationError",
+    "CabinetUnsatisfiable",
+    "LegacyCabinet",
+    "PaintCanCabinet",
+    "PaintLot",
+    "Region",
+    "RegionPaint",
+    "Scheme",
+    "CheckRequest",
+    "Mismatch",
+    "SubstitutionInputError",
+    "SubstitutionReport",
+    "cabinet_fingerprint",
+    "entry_canvas_from_scheme",
+    "issue_sheet",
+    "reopen_sheet",
+    "verify_substitution",
 ]
